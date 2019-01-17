@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 32px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+  <div  class="header" style="height: 200px;padding-top: 20px; background-image: url(./images/download.jpg); 
+background-repeat: no-repeat;
+opacity: 0.85;
+background-size: cover;
+ padding-left: 50px; border="2" "  >
+    <table>
+      <tr style="padding-left: 30px;">
+        <td >
+          <img src="http://www.iitk.ac.in/che/images/logo/logo.png" alt="" height="72" width="72">
+        </td>
+        <td>
+          <div style="margin-left: 2px; border-left: 2px; border-color: white;">
+            <h4 style="margin-top: 0px; padding-top: 30px; font-size: 40px; color: white; padding-left: 10px;" >Society Of Civil Engineers</h4>
+          </div>
+          <hr>
+          <h4 style="text-align: center;color: white;">IIT Kanpur</h4>
+        </td>
+      </tr>
+    </table>
+    
+    
+  </div>
+<nav class="navbar navbar-default navbar-inverse">
+
+    <div class="container">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tanmay" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          </button>
+          
+      <div class=" navbar-header ">
+        <a href="index.html" class="navbar-brand">HOME</a>  
+      </div>
+    <div class="collapse navbar-collapse" id="tanmay">
+      <ul class="nav navbar-nav ">
+      <li>
+        <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 16px 12px;">
+    Academics <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">UnderGraduate</a></li>
+    <li><a href="#">Graduate</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Courses</a></li>
+  </ul>
+</div>
+      </li>
+      <li><a href="http://www.iitk.ac.in/ce/CIVIL/faculty.htm">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="https://soceiitk-forum.herokuapp.com/#/discussions" target="_blank">Forum</a></li>
+      <li><a href="#"></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">News & Events </a></li>
+        <li><a href="#">About Us</a></li> 
+      </ul>
+    </div>    
+    </div>    
+  </nav>
+<div class="container">
+<h2 style="text-align: center; font-size: 32px;">Meet The Team</h2>
+<br>
+<h2 style="border-top:2px solid #e3e3e3; text-align:center">Faculty Advisor</h2>
+<div class="row" style="align-self:center;">
+  <div class="column" id="faculty">
+    <div class="card" >
+      <center><img src="photos/schandra.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <a href="https://home.iitk.ac.in/~sarv"><h2>Prof. Sarvesh Chandra </h2></a>
+        <p class="title">CEO & Founder</p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<h2 style="border-top:2px solid #e3e3e3; text-align:center">Coordinators</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/anshul.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Anshul Yadav</h2>
+        <p class="title">Coordinator</p>
+        <p></p>
+        <p>example@example.com</p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/shubhanshi.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Shubhanshi Singh</h2>
+        <p class="title">Coordinator</p>
+        <p></p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/shivank.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Shivank Khard</h2>
+        <p class="title">Coordinator</p>
+        <p></p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+  <h2 style="border-top:2px solid #e3e3e3; text-align:center">Secretaries</h2>
+  <br>
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/adityagupta.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Aditya Gupta</h2>
+        <p class="title">Finance Manager</p>
+        <p>8839996820</p>
+        <p>adigupta@iitk.ac.in</p>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/akshita.png" alt="Rohan" style="width:41%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Akshita Jha</h2>
+        <p class="title">Manager, Website Content</p>
+        <p>Contact no.: 9198971454</p>
+        <p>akshitaj@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/aman.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Aman Jangid</h2>
+        <p class="title">Manager Public Relation, SOCE </p>
+        <p>7568697625</p>
+        <p>jangid@iitk.ac.in</p>
+       
+      </div>
+    </div>
+  </div><div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/anushaki.jpg" alt="Rohan" style="width:47%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Anurag Shakya</h2>
+        <p class="title">Finance executive</p>
+        <p></p>
+        <p>anushaki@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/dishant.jpg" alt="Rohan" style="width:53%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Dishant Parewa</h2>
+        <p class="title">Manager Events </p>
+        <p>8740968403</p>
+        <p>dishant@iitk.ac.in</p>
+       
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/KanishkChauhan_Events.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Kanishk Chauhan</h2>
+        <p class="title">Manager Events</p>
+        <p>8847579248</p>
+        <p>kanishkc@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div><div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/NikhilKumar.jpg" alt="Rohan" style="width:36%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Nikhil Kumar</h2>
+        <p class="title">Finance Manager</p>
+        <p>8708567362</p>
+        <p>knikhil@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/nimish2.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Nimish Agrawal</h2>
+        <p class="title">MANAGER Public Relation</p>
+        <p>9149071072</p>
+        <p>agnimish@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/Prashant.jpg" alt="Rohan" style="width:75%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Prashant Chauhan</h2>
+        <p class="title">Media and Publicity</p>
+        <p>9079710390</p>
+        <p>chouhan@iitk.ac.in</p>
+       
+      </div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/dp.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Rohan Gupta</h2>
+        <p class="title">Manager, Web</p>
+        <p>9910080764</p>
+        <p>rohgupta@iitk.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/saurabh.jpg" alt="Rohan" style="width:48%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Saurabh Gupta</h2>
+        <p class="title">Manager Public Relations </p>
+        <p>917000080538</p>
+        <p>saurabg@iitk.ac.in </p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/shashi.jpg" alt="Rohan" style="width:36%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Shashi Shekhar</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/tanmay.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Tanmay Yadav</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/vineet.jpg" alt="Rohan" style="width:67%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>Vineet Shukla</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+      
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="photos/Vivek_Photo.jpg" alt="Rohan" style="width:50%; border-radius: 50%"></center>
+      <div class="container">
+        <h2>
+Vivek Kumar</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"> SOCE </a></h2>
+                    <p style="font-size:17px; font-weight: bold; ">Society of Civil Engineers</p>
+                    <p style="font-weight:bold;  ">IIT Kanpur</p>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <!-- <li><a href="#">Downloads</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About Us</h5>
+                    <ul>
+                        <li><a href="#">Organization Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <!-- <li><a href="#">Reviews</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <!-- <li><a href="#">Help desk</a></li> -->
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 Copyright | SOCE IIT KANPUR </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SOCE | 2K18</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css" > -->
+	<link rel="stylesheet" type="text/css" href="css/soce_css.css">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+	<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		/*body, html {
+			padding:0px;
+			margin:0px;
+			/*background: url('images/bg.jpg') center;*/
+			/*background-size:cover;*/
+			background-attachment: fixed;
+			text-align:center;
+			color:#fff;
+			line-height: 1.4em;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}*/
+		body {
+			/*padding:10vh 0;*/
+		}
+		h1 {
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			text-align: center;
+			font-size: 77px;
+			text-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+		}
+		h2 {
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size:30px;
+			text-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+			color:#fff;
+		}
+		.monthly {
+			box-shadow: 0 13px 40px rgba(0, 0, 0, 0.5);
+			font-size: 0.8em;
+		}
+
+		input[type="text"] {
+			padding: 15px;
+			border-radius: 2px;
+			font-size: 16px;
+			outline: none;
+			border: 2px solid rgba(255, 255, 255, 0.5);
+			background: rgba(63, 78, 100, 0.27);
+			color: #fff;
+			width: 250px;
+			box-sizing: border-box;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}
+		input[type="text"]:hover {
+			border: 2px solid rgba(255, 255, 255, 0.7);
+		}
+		input[type="text"]:focus {
+			border: 2px solid rgba(255, 255, 255, 1);
+			background:#eee;
+			color:#222;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 15px 25px;
+			margin: 25px 0 75px 0;
+			border-radius: 3px;
+			color: #fff;
+			background: #000;
+			letter-spacing: .4em;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		.button:hover {
+			background: #3b587a;
+		}
+		.column {
+  			float: left;
+  			width: 33.33%;
+  			padding: 5px;}
+  		.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}	
+		.desc {
+			max-width: 250px;
+			text-align: left;
+			font-size:14px;
+			padding-top:30px;
+			line-height: 1.4em;
+		}
+		.resize {
+			background: #222;
+			display: inline-block;
+			padding: 6px 15px;
+			border-radius: 22px;
+			font-size: 13px;
+		}
+		.panel.date {
+		    margin: 0px;
+		    width: 60px;
+		    text-align: center;
+		}
+
+		.panel.date .month {
+		    padding: 2px 0px;
+		    font-weight: 700;
+		    text-transform: uppercase;
+		}
+
+		.panel.date .day {
+		    padding: 3px 0px;
+		    font-weight: 700;
+		    font-size: 1.5em;
+		}
+
+		@media (max-height: 700px) {
+			.sticky {
+				position: relative;
+			}
+		}
+		@media (max-width: 600px) {
+			.resize {
+				display: none;
+			}
+		}
+	</style>
+	<link rel="stylesheet" href="css/monthly.css">
+
+</head>
+<body>
+	<div  class="header" style="height: 200px;padding-top: 20px; background-color:#29c2e3;  padding-left: 50px; border="2" "  >
+		<table>
+			<tr style="padding-left: 30px;">
+				<td >
+					<img src="http://www.iitk.ac.in/che/images/logo/logo.png" alt="" height="72" width="72">
+				</td>
+				<td>
+					<div style="margin-left: 2px; border-left: 2px; border-color: white;">
+						<h4 style="margin-top: 0px; padding-top: 30px; font-size: 40px; color: white; padding-left: 10px;" >Society Of Civil Engineers</h4>
+					</div>
+					<hr>
+					<h4 style="text-align: center; text-decoration-color: white;">IIT Kanpur</h4>
+				</td>
+			</tr>
+		</table>
+		
+		
+	</div>
+	<nav class="navbar navbar-default navbar-inverse">
+
+		<div class="container">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tanmay" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      		</button>
+      		
+			<div class=" navbar-header ">
+				<a href="index.html" class="navbar-brand">HOME</a>	
+			</div>
+		<div class="collapse navbar-collapse" id="tanmay">
+			<ul class="nav navbar-nav ">
+			<li>
+				<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 16px 12px;">
+    Academics <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">UnderGraduate</a></li>
+    <li><a href="#">Graduate</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Courses</a></li>
+  </ul>
+</div>
+			</li>
+			<li><a href="http://www.iitk.ac.in/ce/CIVIL/faculty.htm">Research</a></li>
+			<li><a href="#">People</a></li>
+			<li><a href="#">Resources</a></li>
+			<li><a href="https://soceiitk-forum.herokuapp.com/#/discussions">Forum</a></li>
+			<li><a href="#"></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+		    <li><a href="#">News & Events </a></li>
+		    <li><a href="#">About Us</a></li> 
+			</ul>
+		</div>		
+		</div>    
+	</nav>
+	<div id="main" class="double internal">
+	<center><h1> Team</h1></center>								
+<br/><br/><h1 style="border-top:2px solid #e3e3e3;"></h1><h1 style="text-align:center">Faculty Advisor</h1>
+	<div class="manageTable">
+		<ul class="listing innerListing">
+						<li>
+							<div class="row">
+								<div class="column">
+					<img src="photos/schandra.jpg" width="150" height="150" style="margin-left:345px"/><div style="margin-left: 345px"><a href="https://home.iitk.ac.in/~sarv"><br><br>Professor Sarvesh Chandra Sir</a></div>
+				</div></div></li>
+			</ul>
+
+	</div>
+	<br/><br/><h1 style="border-top:2px solid #e3e3e3;">
+	<h1 style="text-align:center">Coordinators</h1>
+	<div class="img" style="margin-left:130px" >
+<div class="row">
+	<div class="column">
+		<img src="photos/anshul.jpg" alt="Anshul" width="150" height="150" style="margin-left:130px" />
+		<div style="margin-left: 130px"><br>Anshul Yadav</div>
+	</div>
+
+	<div class="column">
+		<img src="photos/shubhanshi.jpg" alt="Shubhanshi" width="150" height="150" />
+		<div class="desc">Shubhanshi Gupta</div>
+	</div></div>
+
+	<br/><br/><h1 style="border-top:2px solid #e3e3e3;  margin-top:200px;">
+	<h1 style="text-align:center">Secretaries</h1>
+	<div class="row">
+		<div class="column">
+		<img src="photos/adityagupta.jpg" alt="Shubham" width="150" height="150" style="margin-left:130px"/>
+		<div style="margin-left: 130px"><br>Aditya Gupta</div></div>
+		<div class="column">
+		<img src="photos/akshita.png" alt="Abhishek" width="150" height="150" />
+		<div class="desc">Akshita Jha</div></div>
+		<div class="column">
+		<img src="photos/aman.jpg" alt="Abhilash" width="150" height="150" />
+		<div class="desc">Aman Jangid</div></div>
+	</div>
+	<div class="row">
+		<div class="column">
+		<img src="photos/anushaki.jpg" alt="Viswas" width="150" height="150" style="margin-left:130px"/>
+		<div class="desc" style="margin-left:130px"><br>Anurag Shakya</div></div>
+		<div class="column">
+		<img src="photos/dishant.jpg" alt="Swatantra" width="150" height="150" />
+		<div class="desc">Dishant Parewa</div></div>
+		<div class="column">
+		<img src="photos/KanishkChauhan_Events.jpg" alt="ritika" width="150" height="150" />
+		<div class="desc">Kanishk Chauhan</div></div>
+	</div>
+	<div class="row">
+		<div class="column">
+		<img src="photos/NikhilKumar.jpg" alt="Ravi" width="150" height="150" style="margin-left:130px"/>
+		<div class="desc" style="margin-left:130px"><br>Nikhil Kumar</div>
+	</div>
+	<div class="column">
+		<img src="photos/nimish2.jpg" alt="Ayush" width="150" height="150" />
+		<div class="desc">Nimish Agrawal</div>
+	</div>
+	<div class="column">
+		<img src="photos/Prashant.jpg" alt="Abhay" width="150" height="150" />
+		<div class="desc">Prashant Chauhan</div></div>
+	</div>
+	
+	<div class="row">
+		<div class="column">
+		<img src="photos/dp.jpg" alt="Subhan" width="150" height="150" style="margin-left:130px"/>
+		<div class="desc" style="margin-left:130px"><br>Rohan Gupta</div>
+	</div>
+	<div class="column">
+		<img src="photos/saurabh.jpg" alt="Nishant" width="150" height="150" />
+		<div class="desc">Saurabh Gupta</div>
+	</div>
+	
+	<div class="column">
+		<img src="photos/shashi.jpg" alt="Aayush" width="150" height="150" />
+		<div class="desc">Shashi Shekhar</div></div>
+	</div>
+	
+	<<div class="row">
+		<div class="column">
+		<img src="photos/vineet.jpg" alt="Kritika" width="150" height="150" style="margin-left:130px"/>
+		<div class="desc" style="margin-left:130px"><br>Vineet Shukla</div>
+	</div>
+	
+		<div class="column">
+		<img src="photos/Vivek_Photo.jpg" alt="Abhijeet" width="150" height="150" />
+		<div class="desc">Vivek Kumar</div>
+	</div>
+
+
+	
+												</div>
+			
+	</div>

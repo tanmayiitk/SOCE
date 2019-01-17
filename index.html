@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SOCE | 2K18</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css" > -->
+	<link rel="stylesheet" type="text/css" href="css/soce_css.css">	<!-- 	 -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->	
+	 <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+	<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>  -->
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+	<style type="text/css">
+		/*body, html {
+			padding:0px;
+			margin:0px;
+			/*background: url('images/bg.jpg') center;*/
+			/*background-size:cover;*/
+			background-attachment: fixed;
+			text-align:center;
+			color:#fff;
+			line-height: 1.4em;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}*/
+		body {
+			/*padding:10vh 0;*/
+		}
+		h1 {
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			text-align: center;
+			font-size: 77px;
+			text-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+		}
+		h2 {
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size:30px;
+			text-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+			color:#fff;
+		}
+		.monthly {
+			box-shadow: 0 13px 40px rgba(0, 0, 0, 0.5);
+			font-size: 0.8em;
+		}
+
+		input[type="text"] {
+			padding: 15px;
+			border-radius: 2px;
+			font-size: 16px;
+			outline: none;
+			border: 2px solid rgba(255, 255, 255, 0.5);
+			background: rgba(63, 78, 100, 0.27);
+			color: #fff;
+			width: 250px;
+			box-sizing: border-box;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}
+		input[type="text"]:hover {
+			border: 2px solid rgba(255, 255, 255, 0.7);
+		}
+		input[type="text"]:focus {
+			border: 2px solid rgba(255, 255, 255, 1);
+			background:#eee;
+			color:#222;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 15px 25px;
+			margin: 25px 0 75px 0;
+			border-radius: 3px;
+			color: #fff;
+			background: #000;
+			letter-spacing: .4em;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		.button:hover {
+			background: #3b587a;
+		}
+		.desc {
+			max-width: 250px;
+			text-align: left;
+			font-size:14px;
+			padding-top:30px;
+			line-height: 1.4em;
+		}
+		.resize {
+			background: #222;
+			display: inline-block;
+			padding: 6px 15px;
+			border-radius: 22px;
+			font-size: 13px;
+		}
+		.panel.date {
+		    margin: 0px;
+		    width: 60px;
+		    text-align: center;
+		}
+
+		.panel.date .month {
+		    padding: 2px 0px;
+		    font-weight: 700;
+		    text-transform: uppercase;
+		}
+
+		.panel.date .day {
+		    padding: 3px 0px;
+		    font-weight: 700;
+		    font-size: 1.5em;
+		}
+
+		@media (max-height: 700px) {
+			.sticky {
+				position: relative;
+			}
+		}
+		@media (max-width: 600px) {
+			.resize {
+				display: none;
+			}
+		}
+	</style>
+	<link rel="stylesheet" href="css/monthly.css">
+
+</head>
+<body>
+	<div  class="header" style="height: 200px;padding-top: 20px; background-image: url(./images/download.jpg); 
+background-repeat: no-repeat;
+opacity: 0.85;
+background-size: cover;
+ padding-left: 50px; border="2" "  >
+		<table>
+			<tr style="padding-left: 30px;">
+				<td >
+					<img src="http://www.iitk.ac.in/che/images/logo/logo.png" alt="" height="72" width="72">
+				</td>
+				<td>
+					<div style="margin-left: 2px; border-left: 2px; border-color: white;">
+						<h4 style="margin-top: 0px; padding-top: 30px; font-size: 40px; color: white; padding-left: 10px;" >Society Of Civil Engineers</h4>
+					</div>
+					<hr>
+					<h4 style="text-align: center;color: white;">IIT Kanpur</h4>
+				</td>
+			</tr>
+		</table>
+		
+		
+	</div>
+
+	<nav class="navbar navbar-default navbar-inverse">
+
+		<div class="container">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tanmay" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      		</button>
+      		
+			<div class=" navbar-header ">
+				<a href="index.html" class="navbar-brand">HOME</a>	
+			</div>
+		<div class="collapse navbar-collapse" id="tanmay">
+			<ul class="nav navbar-nav ">
+			<li>
+				<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 16px 12px;">
+    Academics <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">UnderGraduate</a></li>
+    <li><a href="#">Graduate</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Courses</a></li>
+  </ul>
+</div>
+			</li>
+			<li><a href="http://www.iitk.ac.in/ce/CIVIL/faculty.htm">Research</a></li>
+			<li><a href="people1.html">People</a></li>
+			<li><a href="#">Resources</a></li>
+			<li><a href="https://soceiitk-forum.herokuapp.com/#/discussions" target="_blank">Forum</a></li>
+			<li><a href="#"></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+		    <li><a href="#">News & Events </a></li>
+		    <li><a href="#">About Us</a></li> 
+			</ul>
+		</div>		
+		</div>    
+	</nav>
+
+	<div class="container">
+		<table class="table" style="background-color: white;border-left:2px; border-color: red;">
+			<col width="75%">
+			<col width="25%">
+			<tr>
+				<td style=" border-right: thin double #ff0000; border-color:#ffa500">
+					<!-- <h1>Hello</h1> -->
+
+					<div class="carousel fade-carousel slide carousel-fade" data-ride="carousel"
+data-interval="2000" id="bs-carousel">
+    <!-- Overlay -->
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel2" data-slide-to="slide-1"></li>
+        <li data-target="#bs-carousel3" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item slides active carousel-item">
+            <div class="slide-1">
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="item slides carousel-item" id="bs-carousel2">
+            <div class="slide-2" >
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="item slides carousel-item">
+            <div class="slide-3" id="bs-carousel3">
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="hero">
+            <hgroup>
+                 <h1>We are amazing</h1> 
+                 <h3>Get start your next awesome project</h3>
+            </hgroup>
+            <button class="btn btn-hero btn-lg" role="button">See all features</button>
+        </div>
+    </div>
+</div>
+				</td>
+				<!-- /////////////////////////////////////// -->
+				<td>
+					<div style="background-color: black;border-left:2px; border-color: red;">
+						<h4 style="color: white; text-align: center;">Announcements</h4>
+
+					</div>
+					
+					<div class="page">
+			<!-- <h1>monthly.js</h1>
+			<h2>Example One - Event Calendar</h2> -->
+			<div style="width:100%; max-width:600px; display:inline-block;">
+				<div class="monthly" id="mycalendar"></div>
+			</div>
+			<br><br>
+			<!-- <h2>Example Two - Date Picker</h2> -->
+			<!-- <div style="display:inline-block; width:250px;">
+				<input type="text" id="mytarget" value="Select Date">
+				<div class="monthly" id="mycalendar2"></div>
+			</div> -->
+			<br>
+			<!-- <a href="#" class="button">DOWNLOAD / DOCS</a> -->
+	</div><br><br>
+	
+	<!-- JS ======================================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/monthly.js"></script>
+	<script type="text/javascript">
+		$(window).load( function() {
+
+			$('#mycalendar').monthly({
+				mode: 'event',
+				//jsonUrl: 'events.json',
+				//dataType: 'json'
+				xmlUrl: 'events.xml'
+			});
+
+			$('#mycalendar2').monthly({
+				mode: 'picker',
+				target: '#mytarget',
+				setWidth: '250px',
+				startHidden: true,
+				showTrigger: '#mytarget',
+				stylePast: true,
+				disablePast: true
+			});
+
+		switch(window.location.protocol) {
+		case 'http:':
+		case 'https:':
+		// running on a server, should be good.
+		break;
+		case 'file:':
+		alert('Just a heads-up, events will not work when run locally.');
+		}
+
+		});
+	</script>
+				</td>
+			</tr>
+			<tr>
+				<td style=" border-right: thin double #ff0000; border-color:#ffa500">
+					Every day is an adventure when you are a civil engineer!<br><br>
+Welcome to the Society of Civil Engineers!<br><br>
+The basic motive of the Society of Civil Engineers (SoCE) is to serve as a link between the enrolled Civil Engineering students, the alumni, and the professors. The society is a dedicated forum for free communication and sharing of ideas and information among all.
+SoCE is envisaged to be a synergy of the vast resources, experience and technical knowledge-base of both the professors and the alumni, which shall help the students of our department gain an expansive outlook on the career prospects and the scope of civil engineering. Such educational discourses shall also help in bolstering the all-important student-faculty-alumni network within and beyond the collegiate community. This may help in professional networking as well.<br><br>
+They say two heads are better than one!<br><br>
+When different skills and experiences coalesce, ingenuity springs! Harvesting on the diversity of ideas will help our department leverage its key resources. Creative solutions to current problems could be found faster, which would, in turn, foster holistic insights into the abundance the civil department has to offer.<br><br>
+Furthermore, SoCE attempts to facilitate the alignment of academia with industry, through organized workshops and industrial trips. Industrial trips will help students observe the real machinery and operational methodology, as well as, know the general know-how of managerial aspects of such large-scale systems. On the other hand, workshops would also be conducted which would consist of intensive discussions and related activities to make students put their skills to practice. Obtaining such first-hand information would help in bridging the gap of practical exposure.<br><br>
+Thus, through the integration of the aforesaid objectives, SoCE would create an ever-progressive network of students, faculty, and alumni, and this network would be the confluence of learning (both structured and informal), knowledge and expertise.
+				</td>
+				<td style=" border-right: thin double #ff0000; border-color:#ffa500">
+					<div style="background-color: black;border-left:2px; border-color: red;">
+						<h4 style="color: white; text-align: center;"> Upcoming Events</h4>
+					</div>
+        
+            <!-- Fluid width widget -->        
+    	    <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <span class="glyphicon glyphicon-calendar"></span> 
+                        Calendar Events
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-left">
+                                <div class="panel panel-danger text-center date">
+                                    <div class="panel-heading month">
+                                        <span class="panel-title strong">
+                                            Jan
+                                        </span>
+                                    </div>
+                                    <div class="panel-body day text-danger">
+                                        17
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Departmental get-together
+                                </h4>
+                                <p>
+                                    A departmental get-together is being organized by SoCE and is scheduled to be held on 18th of January 2019.
+                                </p>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <a href="#" class="btn btn-default btn-block">More Events »</a>
+                </div>
+            </div>
+            <!-- End fluid width widget --> 
+            
+				</td>
+			</tr>
+			<tr>
+				<td style=" border-right: thin double #ff0000; border-color:#ffa500">
+					<strong style="font-size: 14">MINUTES OF THE INTRODUCTORY SESSION OF SoCE:</strong><br><br>
+An introductory session was organized by SoCE for the first- and second-year students on 20th August 2018. The session was graced by Prof. Suparno Mukhopadhyay. Topics ranging from various subfields and future scope of civil engineering to what functions the society entails were discussed. Prof. Suparno Mukhopadhyay provided a deeper insight into the realm of civil engineering. It was an interactive session where thoughts on the present scope of civil engineering and its future prospects were discussed.
+				</td>
+				<td>
+							<div style="background-color: black;border-left:2px; border-color: red;">
+								<h4 style="color: white; text-align: center;" >Latest News</h4>
+							</div>
+							<div>
+								<ul class="timeline">
+									<li>
+										<a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+										<a href="#" class="float-right">21 March, 2014</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+									</li>
+									<li>
+										<a href="#">21 000 Job Seekers</a>
+										<a href="#" class="float-right">4 March, 2014</a>
+										<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+									</li>
+									<li>
+										<a href="#">Awesome Employers</a>
+										<a href="#" class="float-right">1 April, 2014</a>
+										<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+									</li>
+								</ul>
+							</div>
+				</td>	
+			</tr>
+		</table >
+	</div>
+	<!-- footer Starts -->
+
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"><img src="./images/logo.png" width="110px" height="110px"> </a></h2>
+                    <p style="font-size:17px; font-weight: bold; ">Society of Civil Engineers</p>
+                    <p style="font-weight:bold;  ">IIT Kanpur</p>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <!-- <li><a href="#">Downloads</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About Us</h5>
+                    <ul>
+                        <li><a href="#">Organization Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <!-- <li><a href="#">Reviews</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <!-- <li><a href="#">Help desk</a></li> -->
+                        <li><a href="#">Forum</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        
+        
+	</div>
+	<div class="footer-copyright">
+            <p> © 2019 Copyright | SOCE IIT KANPUR </p>
+        </div>
+    </footer>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
