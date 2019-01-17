@@ -26,11 +26,11 @@
 
 	<event>
 		<id>3</id>
-		<name>Another Event</name>
-		<startdate>2017-1-20</startdate>
-		<enddate>2017-1-22</enddate>
-		<starttime>9:00</starttime>
-		<endtime>10:00</endtime>
+		<name>Departmental Get Together</name>
+		<startdate>2019-1-17</startdate>
+		<enddate>2019-1-18</enddate>
+		<starttime>19:30</starttime>
+		<endtime>22:00</endtime>
 		<color>#9cc370</color>
 		<url></url>
 	</event>
